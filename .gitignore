@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Secrets and local config
+.env
+
+# Large / regenerated data and models (never commit the raw Kaggle files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/sample/*
+models/*
+!models/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
