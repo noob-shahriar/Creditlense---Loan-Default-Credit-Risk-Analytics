@@ -19,3 +19,4 @@ models/*
 # OS / editor
 .DS_Store
 Thumbs.db
+dashboard/data/scored_test_sample.csv
