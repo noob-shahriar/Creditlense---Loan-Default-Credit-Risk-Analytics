@@ -1,0 +1,13 @@
+purpose,loans,default_rate,risk_rank
+small_business,8002,0.2714,1
+moving,4640,0.2183,2
+house,3148,0.2144,3
+debt_consolidation,468555,0.1985,4
+other,36824,0.1984,5
+medical,7469,0.1973,6
+vacation,4261,0.1746,7
+major_purchase,14076,0.1719,8
+home_improvement,45310,0.1678,9
+credit_card,185814,0.1559,10
+car,6922,0.1409,11
+wedding,1343,0.1355,12

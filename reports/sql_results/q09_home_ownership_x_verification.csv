@@ -1,0 +1,10 @@
+home_ownership,verification_status,loans,default_rate
+RENT,Verified,98474,0.2482
+RENT,Source Verified,124793,0.2293
+OWN,Verified,25407,0.2183
+OWN,Source Verified,31176,0.2046
+MORTGAGE,Verified,137209,0.1913
+MORTGAGE,Source Verified,142535,0.1736
+RENT,Not Verified,93351,0.1517
+OWN,Not Verified,21775,0.1421
+MORTGAGE,Not Verified,112009,0.1196

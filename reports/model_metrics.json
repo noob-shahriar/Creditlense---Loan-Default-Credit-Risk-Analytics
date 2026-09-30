@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "source": "accepted_2007_to_2018Q4.csv",
+    "is_synthetic": false,
+    "train_rows": 400000,
+    "train_rows_available": 411274,
+    "test_rows": 375546,
+    "test_year": 2015,
+    "train_default_rate": 0.17228,
+    "test_default_rate": 0.20185010624530683
+  },
+  "models": [
+    {
+      "name": "full__logistic",
+      "feature_set": "full",
+      "model": "logistic",
+      "roc_auc": 0.7314296304619169,
+      "gini": 0.4628592609238338,
+      "ks": 0.3377124141019099,
+      "pr_auc": 0.40436960163635627,
+      "brier": 0.14347054052230196,
+      "base_rate": 0.20185010624530683
+    },
+    {
+      "name": "full__gbm",
+      "feature_set": "full",
+      "model": "gbm",
+      "roc_auc": 0.7347929843995247,
+      "gini": 0.46958596879904935,
+      "ks": 0.34225094601884243,
+      "pr_auc": 0.4113203628466924,
+      "brier": 0.1433001390341236,
+      "base_rate": 0.20185010624530683
+    },
+    {
+      "name": "borrower_only__logistic",
+      "feature_set": "borrower_only",
+      "model": "logistic",
+      "roc_auc": 0.7137665599863158,
+      "gini": 0.42753311997263155,
+      "ks": 0.30857450499086647,
+      "pr_auc": 0.39200283317173734,
+      "brier": 0.14611663849764667,
+      "base_rate": 0.20185010624530683
+    },
+    {
+      "name": "borrower_only__gbm",
+      "feature_set": "borrower_only",
+      "model": "gbm",
+      "roc_auc": 0.7214734887207122,
+      "gini": 0.4429469774414243,
+      "ks": 0.31834843666571666,
+      "pr_auc": 0.3999524978465099,
+      "brier": 0.14489487162553094,
+      "base_rate": 0.20185010624530683
+    }
+  ],
+  "best_by_feature_set": {
+    "full": "full__gbm",
+    "borrower_only": "borrower_only__gbm"
+  }
+}

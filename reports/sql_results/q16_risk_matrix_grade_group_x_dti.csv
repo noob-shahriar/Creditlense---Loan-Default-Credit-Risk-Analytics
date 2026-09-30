@@ -1,0 +1,11 @@
+grade_group,dti_group,loans,default_rate
+A-B (prime),DTI <15,159800,0.0799
+A-B (prime),DTI 15-25,146354,0.1019
+A-B (prime),DTI 25+,59667,0.1258
+C-D (mid),DTI <15,114213,0.1969
+C-D (mid),DTI 15-25,136031,0.2367
+C-D (mid),DTI 25+,87554,0.2757
+C-D (mid),Unknown,2,0.5000
+E-G (subprime),DTI <15,24310,0.3325
+E-G (subprime),DTI 15-25,33683,0.3896
+E-G (subprime),DTI 25+,25206,0.4530
